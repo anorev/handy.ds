@@ -1,0 +1,105 @@
+:root {
+    // Colors
+    --primary: #6fa939; // Couleur dominante. Elle peut s'appliquer à la fois à des surfaces ou à des contenus.
+    --primary-accent: #4e920f; // Modifieur de couleur dominante (survol, bordure)
+    --on-primary: $white; // Contenus (texte, lien, icône) affichés par-dessus une couche primary
+
+    --secondary: #008cba; // Couleur d'accentuation. Elle s'applique généralement aux liens, mais peut s'appliquer à la fois à des surfaces ou à des contenus.
+    --secondary-accent: #027da7; // Modifieur de couleur d'accentuation (survol, bordure)
+    --on-secondary: $white; // Contenus affichés par-dessus une couche secondary
+
+
+
+    --body-bg: var(--secondary);
+    --body-text-color: var(--primary)
+
+    // Variables couleurs statuts
+
+    --success-bg: #dff0d9;
+    --success-border: #d6e9c6;
+    --success: #3c763d;
+    --success-hover: #275c28;
+
+    --info-bg: #d9edf7;
+    --info-border: #bce8f1;
+    --info: #0d7192;
+    --info-hover: #005e7d;
+
+    --warning-bg: #fcf8e3;
+    --warning-border: #faebcc;
+    --warning: #8a6d3b;
+    --warning-hover: #654f29;
+
+    --error-bg: #fff2f2;
+    --error-border: #ebccd1;
+    --error: #e3224a;
+    --error-hover: #a00d10;
+
+
+    // Border radius
+
+    --radius-none: 0;
+    --radius-small: 0.5rem;
+    --radius-medium: 1rem;
+    --radius-large: 20rem;
+    --radius-circle: 50%;
+
+    // Typography
+
+
+        // Font families
+
+        --ff-base: 'sans-serif';
+        --ff-headings: 'serif'; 
+        --ff-mono: monospace;
+
+        // Font sizes
+
+        --fs-html: 16px; 
+        --fs-inherit: inherit, 
+        // --fs-nano: 0.125rem
+        // --fs-micro: 0.5rem; 
+        // --fs-mini: 0.5rem; 
+        // --fs-small: 0.5rem; 
+        --fs-base: 1rem;
+        // --fs-medium: 1.25rem; 
+        // --fs-large: 1.5rem; 
+        // --fs-wide: 1.875rem; 
+        // --fs-ultra: 2.25rem,; 
+
+        // Line height
+
+        --lh-base: 16px;
+
+
+        // Spacings
+        --spacer-none: 0, 
+        --spacer-nano: 0.125rem
+        --spacer-micro: 0.5rem; 
+        --spacer-mini: 0.5rem; 
+        --spacer-small: 0.5rem; 
+        --spacer-medium: 2rem; 
+        --spacer-wide: 2rem; 
+        --spacer-ultra: 2rem; 
+        --spacer-auto: auto; 
+
+
+        // Links
+
+        --link-decoration: none;
+        --link-decoration-hover: underline;
+
+        // Grid
+
+        --grid-columns: 12; 
+
+        --gap-none: 0, 
+        --gap-nano: 0.125rem
+        --gap-micro: 0.5rem; 
+        --gap-mini: 0.5rem; 
+        --gap-small: 0.5rem; 
+        --gap-medium: 2rem; 
+        --gap-wide: 2rem; 
+        --gap-ultra: 2rem; 
+
+}
